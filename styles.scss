@@ -1,0 +1,23 @@
+$primaryColor: #0d6efd;
+$secondaryColor: #198754;
+body{
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: $primaryColor;
+}
+.btn-success{
+    background-color: $secondaryColor;
+}
+.user-card{
+    border-radius:27px;
+    h4{
+        color:$primaryColor;
+    }
+    p{
+        color:#444;
+    }
+}
+body {
+  background-color: lightblue;
+}
