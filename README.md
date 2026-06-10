@@ -1,1 +1,0 @@
-# Cognifyz-Frontend-Development-Internship

@@ -19,4 +19,33 @@ body {
 body {
   background-color: lightblue;
 }
+#userData {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+.user-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+section {
+    padding: 20px;
+}
+h1, h2 {
+    text-align: center;
+}
+@media (max-width: 768px) {
+    #userData {
+        grid-template-columns: 1fr;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+}
 /*# sourceMappingURL=styles.css.map */
